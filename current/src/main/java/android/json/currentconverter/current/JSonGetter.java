@@ -36,7 +36,7 @@ public class JSonGetter {
                     builder.append(line);
                 }
             } else {
-                Log.e("Convert_JSonError", "Failed to retrieve JSon");
+                Log.e("Convert_JSonError", "Failed to retrieve Json");
             }
         } catch (ClientProtocolException e) {
             e.printStackTrace();
